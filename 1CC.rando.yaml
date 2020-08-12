@@ -22,13 +22,12 @@ ASide:
     InternalEdges:
     - Split: LeftToRight
       ReqOut:
-        Or
+        Or:
         - Dashes: one
           Difficulty: hard
         - Dashes: zero
           Difficulty: perfect
       ReqIn:
-        Or:
         - Dashes: one
           Difficulty: expert
     Tweaks:
@@ -54,8 +53,8 @@ ASide:
     InternalEdges:
     - Split: LeftToRight
       ReqOut:
-        Dashes: one
-        Difficulty: hard
+        - Dashes: one
+          Difficulty: hard
       ReqIn:
         Or:
         - Dashes: one
@@ -68,9 +67,10 @@ ASide:
       Idx: 0
       Kind: inout
       ReqIn:
-      - Dashes: two
-      - Dashes: one
-        Difficulty: hard
+        Or:
+        - Dashes: two
+        - Dashes: one
+          Difficulty: hard
     - Side: Down
       Idx: 0
       Kind: none
@@ -83,10 +83,11 @@ ASide:
       Idx: 0
       Kind: inout
       ReqIn:
-      - Dashes: two
-        Difficulty: hard
-      - Dashes: one
-        Difficulty: hard
+        Or:
+        - Dashes: two
+          Difficulty: hard
+        - Dashes: one
+          Difficulty: hard
     - Side: Down
       Idx: 0
       Kind: out
@@ -96,10 +97,11 @@ ASide:
       Idx: 0
       Kind: inout
       ReqIn:
-      - Dashes: two
-        Difficulty: hard
-      - Dashes: one
-        Difficulty: expert
+        Or:
+        - Dashes: two
+          Difficulty: hard
+        - Dashes: one
+          Difficulty: expert
     - Side: Up
       Idx: 1
       Kind: none
@@ -130,10 +132,11 @@ ASide:
       Idx: 0
       Kind: inout
       ReqIn:
-      - Dashes: two
-        Difficulty: hard
-      - Dashes: one
-        Difficulty: expert
+        Or:
+        - Dashes: two
+          Difficulty: hard
+        - Dashes: one
+          Difficulty: expert
     - Side: Down
       Idx: 0
       Kind: none
