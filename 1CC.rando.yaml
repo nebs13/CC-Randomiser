@@ -3,7 +3,7 @@ ASide:
     Holes:
     - Side: Left
       Idx: 0
-      Kind: inout 
+      Kind: inout
     - Side: Down
       Idx: 0
       Kind: none
@@ -28,8 +28,8 @@ ASide:
         - Dashes: zero
           Difficulty: perfect
       ReqIn:
-        - Dashes: one
-          Difficulty: expert
+        Dashes: one
+        Difficulty: expert
     Tweaks:
     - Name: "spawn"
       Update:
@@ -53,8 +53,8 @@ ASide:
     InternalEdges:
     - Split: LeftToRight
       ReqOut:
-        - Dashes: one
-          Difficulty: hard
+        Dashes: one
+        Difficulty: hard
       ReqIn:
         Or:
         - Dashes: one
@@ -162,7 +162,7 @@ ASide:
       Idx: 0
       Kind: in
       ReqIn:
-      - Dashes: one
+        Dashes: one
         Difficulty: hard
     - Side: Up
       Idx: 0
