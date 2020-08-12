@@ -1,0 +1,157 @@
+ASide: 
+ - Room: "B-01"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: hard
+       - Dashes: two
+         Difficulty: hard
+ - Room: "B-02"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: out
+     ReqOut
+     - Dashes: one
+       Difficulty: hard
+ - Room: "B-03"
+   Holes: 
+   - Side: Up
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: hard
+       - Dashes: two
+         Difficulty: hard
+ - Room: "B-04"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: hard
+       - Dashes: two
+         Difficulty: hard
+ - Room: "B-05"
+   Holes: 
+   - Side: Down
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: hard
+       - Dashes: two
+         Difficulty: hard
+ - Room: "B-06"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 8
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: expert
+       - Dashes: two
+         Difficulty: hard
+ - Room: "B-Cassette"
+   End: true
+   Holes: 
+   - Side: Left 
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 1
+     Kind: in
+     ReqIn:
+     - Dashes: one
+       Difficulty: hard
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
