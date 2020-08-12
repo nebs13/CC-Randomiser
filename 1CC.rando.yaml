@@ -4,8 +4,20 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: inout 
-    - Side: Right
+    - Side: Down
+      Idx: 0
+      Kind: none
+    - Side: Down
       Idx: 1
+      Kind: none
+    - Side: Down
+      Idx: 2
+      Kind: none
+    - Side: Down
+      Idx: 3
+      Kind: none
+    - Side: Right
+      Idx: 0
       Kind: inout
     Tweaks:
     - Name: "spawn"
@@ -18,16 +30,25 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: inout
-    - Side: Right
+    - Side: Down
+      Idx: 0
+      Kind: none
+    - Side: Down
       Idx: 1
+      Kind: none
+    - Side: Right
+      Idx: 0
       Kind: inout
   - Room: "A-03"
     Holes:
     - Side: Left
       Idx: 0
       Kind: inout
+    - Side: Down
+      Idx: 0
+      Kind: none
     - Side: Right
-      Idx: 1
+      Idx: 0
       Kind: inout
   - Room: "A-04"
     Holes:
@@ -35,29 +56,72 @@ ASide:
       Idx: 0
       Kind: inout
     - Side: Down
-      Idx: 1
+      Idx: 0
       Kind: out
   - Room: "A-05"
     Holes:
     - Side: Up
       Idx: 0
       Kind: inout
-    - Side: Right
+    - Side: Down
+      Idx: 0
+      Kind: none
+    - Side: Down
       Idx: 1
+      Kind: none
+    - Side: Down
+      Idx: 2
+      Kind: none
+    - Side: Down
+      Idx: 3
+      Kind: none
+    - Side: Down
+      Idx: 4
+      Kind: none
+    - Side: Right
+      Idx: 0
       Kind: inout
   - Room: "A-06"
     Holes:
     - Side: Left
       Idx: 0
       Kind: inout
+    - Side: Down
+      Idx: 0
+      Kind: none
+    - Side: Down
+      Idx: 1
+      Kind: none
+    - Side: Down
+      Idx: 2
+      Kind: none
+    - Side: Down
+      Idx: 3
+      Kind: none
+    - Side: Down
+      Idx: 4
+      Kind: none
     - Side: Right
-      Idx 1
+      Idx 0
       Kind: inout
   - Room: "A-Cassette"
     Holes:
     - Side: Left
       Idx: 0
       Kind: in
+    - Side: Down
+      Idx: 0
+      Kind: none
+    - Side: Down
+      Idx: 1
+      Kind: none
+    - Side: Down
+      Idx: 2
+      Kind: none
+    - Side: Down
+      Idx: 3
+      Kind: none
+    - Side: Down
+      Idx: 4
+      Kind: none
     End: true
-
-    
