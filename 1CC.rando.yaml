@@ -19,6 +19,18 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: inout
+    InternalEdges:
+    - Split: LeftToRight
+      ReqOut:
+        Or
+        - Dashes: one
+          Difficulty: hard
+        - Dashes: zero
+          Difficulty: perfect
+      ReqIn:
+        Or:
+        - Dashes: one
+          Difficulty: expert
     Tweaks:
     - Name: "spawn"
       Update:
@@ -39,22 +51,42 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: inout
+    InternalEdges:
+    - Split: LeftToRight
+      ReqOut:
+        Dashes: one
+        Difficulty: hard
+      ReqIn:
+        Or:
+        - Dashes: one
+          Difficulty: hard
+        - Dashes: zero
+          Difficulty: expert
   - Room: "A-03"
     Holes:
     - Side: Left
       Idx: 0
       Kind: inout
+      ReqIn:
+      - Dashes: two
+      - Dashes: one
+        Difficulty: hard
     - Side: Down
       Idx: 0
       Kind: none
     - Side: Right
       Idx: 0
-      Kind: inout
+      Kind: out
   - Room: "A-04"
     Holes:
     - Side: Left
       Idx: 0
       Kind: inout
+      ReqIn:
+      - Dashes: two
+        Difficulty: hard
+      - Dashes: one
+        Difficulty: hard
     - Side: Down
       Idx: 0
       Kind: out
@@ -63,6 +95,17 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: inout
+      ReqIn:
+      - Dashes: two
+        Difficulty: hard
+      - Dashes: one
+        Difficulty: expert
+    - Side: Up
+      Idx: 1
+      Kind: none
+    - Side: Up
+      Idx: 2
+      Kind: none
     - Side: Down
       Idx: 0
       Kind: none
@@ -80,12 +123,17 @@ ASide:
       Kind: none
     - Side: Right
       Idx: 0
-      Kind: inout
+      Kind: out
   - Room: "A-06"
     Holes:
     - Side: Left
       Idx: 0
       Kind: inout
+      ReqIn:
+      - Dashes: two
+        Difficulty: hard
+      - Dashes: one
+        Difficulty: expert
     - Side: Down
       Idx: 0
       Kind: none
@@ -103,12 +151,24 @@ ASide:
       Kind: none
     - Side: Right
       Idx 0
-      Kind: inout
+      Kind: out
   - Room: "A-Cassette"
     Holes:
     - Side: Left
       Idx: 0
       Kind: in
+      ReqIn:
+      - Dashes: one
+        Difficulty: hard
+    - Side: Up
+      Idx: 0
+      Kind: none
+    - Side: Up
+      Idx: 1
+      Kind: none
+    - Side: Up
+      Idx: 2
+      Kind: none
     - Side: Down
       Idx: 0
       Kind: none
